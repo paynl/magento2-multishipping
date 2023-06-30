@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="checkout_submit_all_after">
+        <observer name="paynl_redirect_multishipping_order_to_the_checkout_url" instance="Paynl\Multishipping\Observer\PayCheckoutUrl" />
+    </event>
+    <event name="pay_multishipping_success_redirect">
+        <observer name="paynl_redirect_multishipping_order_to_the_success_url" instance="Paynl\Multishipping\Observer\PaySuccessRedirect" />
+    </event>    
+</config>

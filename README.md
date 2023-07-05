@@ -5,7 +5,7 @@
 
 # Description
 
-This module adds Multishipping functionality for the [PAY. Magento2 plugin](https://github.com/paynl/magento2-plugin)
+This module adds multishipping functionality to the [Pay. Magento2 plugin](https://github.com/paynl/magento2-plugin)
 
 - [Description](#description)
 - [Requirements](#requirements)
@@ -15,7 +15,7 @@ This module adds Multishipping functionality for the [PAY. Magento2 plugin](http
 # Requirements
 
     PHP 7.2 or higher
-    PAY. Magento2 plugin 3.5.2 or higher
+    pay. Magento2 plugin 3.5.2 or higher
     Tested up to Magento 2.4.6
 
 # Installation

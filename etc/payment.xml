@@ -7,7 +7,25 @@
         </group>
     </groups>
     <methods>
+        <method name="paynl_payment_billink">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="paynl_payment_mistercash">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="paynl_payment_biller">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="paynl_payment_bloemencadeaukaart">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="paynl_payment_googlepay">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
         <method name="paynl_payment_ideal">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="paynl_payment_paypal">
             <allow_multiple_address>1</allow_multiple_address>
         </method>
     </methods>

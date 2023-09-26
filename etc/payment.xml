@@ -28,5 +28,23 @@
         <method name="paynl_payment_paypal">
             <allow_multiple_address>1</allow_multiple_address>
         </method>
+        <method name="paynl_payment_amex">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="paynl_payment_visamastercard">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="paynl_payment_cartebleue">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="paynl_payment_postepay">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="paynl_payment_nexi">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
+        <method name="paynl_payment_dankort">
+            <allow_multiple_address>1</allow_multiple_address>
+        </method>
     </methods>
 </payment>

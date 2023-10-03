@@ -15,7 +15,7 @@ This module adds multishipping functionality to the [Pay. Magento2 plugin](https
 # Requirements
 
     PHP 7.2 or higher
-    pay. Magento2 plugin 3.5.2 or higher
+    Pay. Magento2 plugin 3.7.0 or higher
     Tested up to Magento 2.4.6
 
 # Installation
@@ -24,7 +24,11 @@ On your server's command line, navigate to the installation directory of Magento
 
 ```
 composer require paynl/magento2-multishipping
+```
+```
 php bin/magento setup:upgrade
+```
+```
 php bin/magento cache:clean
 ```
 

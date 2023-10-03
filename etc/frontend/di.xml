@@ -5,7 +5,19 @@
     <type name="Magento\Multishipping\Model\Checkout\Type\Multishipping\PlaceOrderPool">
         <arguments>
             <argument name="services" xsi:type="array">
+                <item name="paynl_payment_billink" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
+                <item name="paynl_payment_mistercash" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
+                <item name="paynl_payment_biller" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
+                <item name="paynl_payment_bloemencadeaukaart" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
+                <item name="paynl_payment_googlepay" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
                 <item name="paynl_payment_ideal" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
+                <item name="paynl_payment_paypal" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
+                <item name="paynl_payment_amex" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
+                <item name="paynl_payment_visamastercard" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
+                <item name="paynl_payment_cartebleue" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
+                <item name="paynl_payment_postepay" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
+                <item name="paynl_payment_nexi" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
+                <item name="paynl_payment_dankort" xsi:type="string">Paynl\Multishipping\Model\PlaceMultiShippingOrder</item>
             </argument>
         </arguments>
     </type>
